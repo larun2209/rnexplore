@@ -1,4 +1,4 @@
-# rnexplore
+# takeoff 
 Reactive Native Explorations
 This is a Pure React Native App with react-navigation and Native Base UI elements[only screen design]
 1. Installation
@@ -7,7 +7,7 @@ On the command prompt run the following commands
 
 $ git clone https://github.com/larun2209/takeoff.git
 
-$ cd takeoff/
+$ cd takeoff
 
 $ npm install
 
