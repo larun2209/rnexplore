@@ -5,7 +5,7 @@ This is a Pure React Native App with react-navigation and Native Base UI element
 
 On the command prompt run the following commands
 
-$ git clone https://github.com/larun2209/rnexplore.git
+$ git clone https://github.com/larun2209/takeoff.git
 
 $ cd takeoff/
 
