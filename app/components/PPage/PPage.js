@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { fetchfile } from '../hasuraApi';
 import {
   StyleSheet,
   View,
@@ -24,11 +24,17 @@ import {
   CardItem,
   Thumbnail,
   Subtitle,
+  
 } from "native-base";
 
 const logo = require("./Img/logo.png");
 
 export default class PPage extends Component {
+   
+    async componentDidMount(){
+
+        
+    }
     render() {
         
         return (
@@ -114,6 +120,8 @@ export default class PPage extends Component {
                             </Left>
                         </CardItem>
                     </Card>  
+                    <Thumbnail square source={{uri:'https://filestore.carton66.hasura-app.io/v1/file/0e2fd6f4-6d21-4c3b-8f41-bbeaec0ccd45'}}/>
+                                  
                </Content>
                <Footer>
                     <FooterTab style={styles.footermb}>

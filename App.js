@@ -12,7 +12,8 @@ import {
   View
 } from 'react-native';
 
-import HomeScreen from './index.js';
+
+import AuthScreen from './app/components/AuthScreen/AuthScreen';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -24,7 +25,7 @@ const instructions = Platform.select({
 export default class App extends Component<{}> {
   render() {
     return (
-      <HomeScreen/>
+      <AuthScreen/>
     );
   }
 }
